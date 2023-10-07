@@ -1,13 +1,13 @@
 "use client";
 
-import { twMerge } from "tailwind-merge";
-import { RxCaretLeft, RxCaretRight } from "react-icons/rx";
+import { twMerge } from "@/node_modules/tailwind-merge/dist/index";
+import { RxCaretLeft, RxCaretRight } from "@/node_modules/react-icons/rx/index";
 import { useRouter } from "next/navigation";
-import { FaUserAlt } from "react-icons/fa";
+import { FaUserAlt } from "@/node_modules/react-icons/fa/index";
 import { useSupabaseClient } from '@supabase/auth-helpers-react';
-import { toast } from "react-hot-toast";
-import { HiHome } from "react-icons/hi";
-import { BiSearch } from "react-icons/bi";
+import { toast } from "@/node_modules/react-hot-toast/dist/index";
+import { HiHome } from "@/node_modules/react-icons/hi/index";
+import { BiSearch } from "@/node_modules/react-icons/bi/index";
 
 import useAuthModal from "@/hooks/useAuthModal";
 import { useUser } from "@/hooks/useUser";

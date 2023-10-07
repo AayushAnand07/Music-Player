@@ -1,8 +1,8 @@
-import {create} from "zustand"
+import {create} from "@/node_modules/zustand/index"
 
 
 interface PlayerStore{
-    ids:Number[];
+    ids:number[];
     activeId?:number;
     setId:(id:number)=> void;
     setIds:(ids:number[])=> void;
